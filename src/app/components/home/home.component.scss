@@ -1,0 +1,23 @@
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+
+  span {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+
+  h1 {
+    font-size: 4.5rem;
+    font-weight: 900;
+  }
+}
+
+@media (min-width: 67.5rem) {
+  .main-section {
+    flex-direction: row;
+  }
+}
