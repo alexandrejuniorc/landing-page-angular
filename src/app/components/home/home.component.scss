@@ -60,6 +60,12 @@ main {
   }
 }
 
+.call-to-action-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (min-width: 67.5rem) {
   .main-section {
     flex-direction: row;
